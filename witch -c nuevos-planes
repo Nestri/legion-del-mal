@@ -1,0 +1,40 @@
+* [33ma381be4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m docs: actualizar estructura de la organización
+* [33mde9c772[m docs: actualziar consejo villanos
+* [33mbdb8864[m docs: actualziar readme con instrucciones
+* [33md002f9c[m docs: agregar nuevas misiones
+* [33mc82db65[m feat: agreagar base mar rojo
+* [33mb820b28[m docs: actualizar contacto
+*   [33m843a8d9[m[33m ([m[1;33mtag: [m[1;33mv1.0.0[m[33m)[m fix: resolver conflictos unir ramas
+[32m|[m[33m\[m  
+[32m|[m * [33ma373cb4[m feat: agregar coordenadas actualizar proyecto krypton a v2.0
+* [33m|[m [33mc156e9e[m chore: actualizar proyecto krypton a v3.0
+[33m|[m[33m/[m  
+*   [33mbbadad9[m Merge branch 'rama-nuevos-villanos'!!!
+[34m|[m[35m\[m  
+[34m|[m * [33m72fe44e[m feat: agregar a Dark sied
+[34m|[m * [33mec4343d[m docs: actualizar docs
+* [35m|[m [33m1b55b09[m feat: agregar dispositivo
+[35m|[m[35m/[m  
+* [33me513283[m[33m ([m[1;33mtag: [m[1;33mv0.1.0[m[33m)[m feat: agregar Joker y Harley quinn
+* [33mbf527b4[m feat: agregar villanos
+* [33med0c833[m docs: agregar .env.example y server.log
+* [33m011b9b7[m fix: corregir reglas de .gitignore
+* [33m4634474[m feat: eliminar super-suero
+* [33m0bbda46[m chore: agregar conclusión
+* [33mcd77dd1[m fix: renombrar robo-banco-mundial a robo-banco-metropolis
+* [33m53a5e62[m fix: cambiar nombre de salvar-mundo.md a destruir-mundo.md
+* [33m1744d06[m feat: agregar nuevos pasos
+* [33m1858d0f[m feat: agregar salvar-mundo.md
+* [33m8c31dd3[m feat: agregar plan super-suero.md + descripción
+* [33m253fef0[m docs: agregar al Green Goblin
+* [33m3a80063[m feat: agregar gitignore
+* [33mcbb66f4[m feat: agregar planes
+* [33mbd0a175[m feat: agregar miembros
+* [33m65cdf2d[m feat: agregar perdedores
+* [33mc7f1afb[m feath: agregar guaridas
+* [33mb4b79e4[m feat: agregar misiones.yaml
+* [33m7488927[m docs: instrucciones actualizadas con la nueva organización
+* [33mb471b65[m docs: agregar a Thanos y Magneto
+* [33m2b3a43a[m docs: agregar al Joker
+* [33mbc780d9[m docs: añadir miembros al README
+* [33mc167d23[m first commit
