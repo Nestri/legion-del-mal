@@ -7,6 +7,7 @@
 ![Licencia](https://img.shields.io/github/license/Nestri/legion-del-mal?cacheSeconds=60)
 
 # 🦹‍♂️ La Legión del Mal!!!!!
+### Es un grupo dedicado git + github
 
 > _"El mundo no se conquista con fuerza bruta, se conquista con un buen plan y control de versiones."_
 > — Lex Luthor, fundador
