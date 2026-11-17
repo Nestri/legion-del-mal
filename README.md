@@ -4,7 +4,7 @@
 ![Release](https://img.shields.io/github/v/release/Nestri/legion-del-mal)
 ![Issues](https://img.shields.io/github/issues/Nestri/legion-del-mal)
 ![Último commit](https://img.shields.io/github/last-commit/Nestri/legion-del-mal)
-![Licencia](https://img.shields.io/github/license/Nestri/legion-del-mal)
+![Licencia](https://img.shields.io/github/license/Nestri/legion-del-mal?cacheSeconds=60)
 
 # 🦹‍♂️ La Legión del Mal
 
