@@ -1,9 +1,5 @@
 name: Reclutamiento de Agente
-on: push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:
+on: push
 jobs:
   reporte-de-reclutamiento: 
     runs-on: ubuntu-latest
