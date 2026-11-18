@@ -10,3 +10,11 @@ jobs:
     steps:
       - name: El agente se presenta
         run: echo "Generando reporte de reclutamiento..."
+      - name: Reporte de identidad
+        run: |
+          echo "Reporte identidad generado exitosamente."
+          echo "-----------------------------------------"
+          echo "Nombre clave ${{github.actor}}"
+          echo "Contexto de Github"
+          echo ""
+          echo "Repo: ${{github.repository}}"
