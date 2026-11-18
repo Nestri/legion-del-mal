@@ -11,7 +11,7 @@ on:
 jobs:
   transmision:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Enviar alerta a la Fortaleza Prohibida
         run: echo "🚨 Alerta de emergencia enviada al Consejo"
@@ -19,5 +19,5 @@ jobs:
       - name: Confirmar recepción de Brainiac
         run: echo "✅ Brainiac confirma recepción de la alerta"
 
-       - name: Activar protocolo de defensa
+      - name: Activar protocolo de defensa
         run: echo "🛡️ Protocolo de defensa activado por Magneto"
