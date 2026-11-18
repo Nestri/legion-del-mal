@@ -15,6 +15,19 @@ on:
           - "Dama Venenosa"
           - "El Hombre de Hielo"
           - "El Hombre de Fuego" 
+      mensaje:
+        description: 'Mensaje a transmitir'
+        required: true
+        type: string
+        default: 'Mensaje secreto de la Legión del
+      prioridad:
+        description: 'Nivel de prioridad'
+        required: true
+        type: choice
+        options:
+          - Normal
+          - Alta
+          - Urgente
 
 
 jobs:
