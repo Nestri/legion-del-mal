@@ -19,6 +19,17 @@ on:
         description: 'Mensaje a transmitir'
         required: true
         default: 'Mensaje secreto de la Legión del Mal'
+
+      cow-caracter:
+        description: 'Caracter de la vaca'
+        required: true
+        type: choice
+        options:
+          - eyes
+          - tux
+          - dragon
+          - ghostbusters
+          - stegosaurus
       prioridad:
         description: 'Nivel de prioridad'
         required: true
@@ -45,7 +56,7 @@ jobs:
           echo "Transmmisión interceptada."
           echo "-----------------------------------------"
           echo " de Villano: ${{ github.event.inputs.villano }}"
-          cowsay -f eyes "${{ github.event.inputs.mensaje }}" "cowsay": Unknown word
+          cowsay -f ${{ github.event.inputs.cow-caracter }} "${{ github.event.inputs.mensaje }}"
           echo ""
           echo "---- ${{ github.event.inputs.villano }} ----"
           echo "....."
