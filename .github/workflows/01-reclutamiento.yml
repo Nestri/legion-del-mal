@@ -9,5 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: El agente se presenta
-        run: |
-          echo "Generando reporte de reclutamiento..."
+        run: echo "Generando reporte de reclutamiento..."
