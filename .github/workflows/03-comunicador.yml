@@ -34,9 +34,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "Imprimir inputs"
+      - name: Instalar el transmisor de la legion
         run: |
+          echo "Instalando el transmisor de la legión..."
+          sudo apt-get update
+          sudo apt-get install -y cowsay
+        run: |
+          echo "Transmmisión interceptada."
           echo "-----------------------------------------"
-          echo "Villano: ${{ github.event.inputs.villano }}"
-          echo "Mensaje: ${{ github.event.inputs.mensaje }}"
-          echo "Prioridad: ${{ github.event.inputs.prioridad }}"
+          echo " de Villano: ${{ github.event.inputs.villano }}"
+          cowsay -f eyes "${{ github.event.inputs.mensaje }}" "cowsay": Unknown word
+          echo ""
+          echo "---- ${{ github.event.inputs.villano }} ----"
+          echo "....."
