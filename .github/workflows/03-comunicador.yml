@@ -18,7 +18,6 @@ on:
       mensaje:
         description: 'Mensaje a transmitir'
         required: true
-        type: string
         default: 'Mensaje secreto de la Legión del Mal'
       prioridad:
         description: 'Nivel de prioridad'
