@@ -10,3 +10,7 @@ Spiderman es un super heroe.
 # Peliculas
 
 - Pelicula 1
+
+## Estrategia recomendada
+
+una estrategia
