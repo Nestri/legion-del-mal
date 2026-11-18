@@ -1,5 +1,6 @@
 name: Acceso a la Fortaleza 
-on: push
+on: 
+  workflow_dispatch:
 jobs:
   acceso-a-la-base: 
     runs-on: ubuntu-latest
@@ -14,3 +15,15 @@ jobs:
           ls -la
           echo ""
           echo "no hay nada"
+      - name: "Braniac desloquea la bóveda"
+        uses: actions/checkout@v4
+
+      - name: "Ahora si vamos a ver los archivos de la légion"
+        run: |
+          echo "Accediendo a la bóveda..."
+          ls -la
+          echo ""
+          echo "Archivos de la légion encontrados"
+          echo "-----------------------------------------"
+          echo "planes"
+          echo ls planes/
