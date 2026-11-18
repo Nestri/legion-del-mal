@@ -1,0 +1,25 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Comunicador de la Legión
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+    inputs:
+      villano:
+        description: '¿Que villano envia el mensaje?'
+        required: true
+        type: choice
+        options:
+          - "Dr. Maligno"
+          - "Dama Venenosa"
+          - "El Hombre de Hielo"
+          - "El Hombre de Fuego" 
+
+
+jobs:
+  transmitir-mensaje:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
